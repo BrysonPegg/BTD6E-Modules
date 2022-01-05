@@ -67,7 +67,7 @@
 
                     for (int j = 0; j < att.weapons[0].projectile.behaviors.Length; j++) {
                         if (att.weapons[0].projectile.behaviors[j].GetIl2CppType() == Il2CppType.Of<DamageModel>()) {
-                            att.weapons[0].projectile.behaviors[j].Cast<DamageModel>().damage = 999999999;
+                            att.weapons[0].projectile.behaviors[j].Cast<DamageModel>().damage = 9999999999999999999999999999;
                         }
                     }
                 }
